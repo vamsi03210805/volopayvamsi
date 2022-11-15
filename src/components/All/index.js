@@ -63,8 +63,9 @@ const All = () => {
   const input1 = e => {
     if (e.target.checked) {
       setCard1(e.target.value)
+    } else {
+      setCard1('')
     }
-    setCard1('')
   }
 
   const input2 = e => {
