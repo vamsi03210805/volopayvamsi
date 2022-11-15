@@ -82,6 +82,7 @@ const All = () => {
   const clearAll = () => {
     setSelect('')
     setCard1('')
+    setCard2('')
   }
 
   console.log(select)
